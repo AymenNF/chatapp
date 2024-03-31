@@ -1,8 +1,7 @@
 package com.example.chatservice.model;
 
-import lombok.*;
 
-import java.util.Date;
+import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -12,7 +11,6 @@ import java.util.Date;
 public class Message {
     private String senderName;
     private String receiverName;
-    private String chatId;
     private String message;
     private String date;
     private Status status;
